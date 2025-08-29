@@ -12,5 +12,6 @@ To run the testbench:
 iverilog -o async_fifo_tb async_fifo.v async_fifo_tb.v
 vvp async_fifo_tb
 gtkwave async_fifo_tb.vcd
-
+```
 ![FIFO Layout](async_gtkwaveform.png)
+
