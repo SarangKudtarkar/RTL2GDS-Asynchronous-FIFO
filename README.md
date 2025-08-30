@@ -15,3 +15,22 @@ gtkwave async_fifo_tb.vcd
 ```
 ![FIFO Layout](async_gtkwaveform.png)
 
+### Run RTL-to-GDSII Flow with OpenLane
+
+Use the following command to launch the OpenLane Docker container and run the flow:
+
+```bash
+cd /home/USER/OpenLane && \
+docker run --rm \
+  -v /home/USER:/home/USER \
+  -v /home/USER/OpenLane:/openlane \
+  -v /home/USER/.volare:/home/USER/.volare \
+  -e PDK_ROOT=/home/USER/.volare \
+  -e PDK=sky130A \
+  --user $(id -u):$(id -g) \
+  efabless/openlane:e73fb3c57e687a0023fcd4dcfd1566ecd478362a-amd64 \
+  sh -c "./flow.tcl -design async_fifo -overwrite"
+```
+
+![GDS Layout](async_fifo.png)
+
