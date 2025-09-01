@@ -34,3 +34,4 @@ docker run --rm \
 
 ![GDS Layout](async_fifo.png)
 
+The src folder contains the RTL source file async_fifo.v and its associated timing constraints file async_fifo.sdc. These files serve as the primary input for the OpenLane RTL-to-GDS flow, defining the asynchronous FIFO design and its timing requirements. Any updates to the FIFO design or its constraints should be made within this folder to ensure they are correctly used during synthesis, placement, and routing.
