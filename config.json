@@ -1,0 +1,26 @@
+{
+  "DESIGN_NAME": "async_fifo",
+  "VERILOG_FILES": "dir::src/async_fifo.v",
+  "CLOCK_PERIOD": 10,
+  "CLOCK_PORT": "wr_clk",
+  "PNR_SDC_FILE": "dir::src/async_fifo.sdc",
+  "SIGNOFF_SDC_FILE": "dir::src/async_fifo.sdc",
+
+  "//": "Let OpenLane size the floorplan automatically",
+  "FP_SIZING": "relative",
+  "FP_CORE_UTIL": 50,
+  "PL_TARGET_DENSITY": 0.55,
+
+  "//": "PDN Settings",
+  "FP_PDN_ENABLE_GLOBAL_CONNECTIONS": true,
+  "FP_PDN_VOFFSET": 10,
+  "FP_PDN_HOFFSET": 10,
+  "FP_PDN_VWIDTH": 2,
+  "FP_PDN_HWIDTH": 2,
+  "FP_PDN_VPITCH": 20,
+  "FP_PDN_HPITCH": 20,
+  "FP_PDN_SKIPTRIM": true,
+  "FP_PDN_CORE_RING": false,
+  "FP_PDN_ENABLE_MACROS_GRID_GENERATION": false,
+  "PDN_CFG_OVERWRITE": true
+}
