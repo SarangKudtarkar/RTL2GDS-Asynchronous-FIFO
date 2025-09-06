@@ -38,3 +38,15 @@ The src folder contains the RTL source file async_fifo.v and its associated timi
 
 The config.json defines the design parameters and flow settings for OpenLane, including RTL sources, clock constraints, and floorplan utilization.
 It also specifies power distribution network (PDN) settings, guiding automated PnR and signoff steps for the async_fifo design.
+
+
+### Placement Stage
+
+In the placement stage of the OpenLane RTL-to-GDSII flow, the synthesized netlist is mapped onto the chip floorplan. Standard cells are positioned while meeting congestion, timing, and power requirements. The main files generated include:  
+- **async_fifo.nl**: gate-level netlist from synthesis, used as input to placement.  
+- **async_fifo.pnl**: post-placement netlist updated with optimizations such as buffering or resizing.  
+- **async_fifo.def**: DEF file containing physical layout details like placed cells and macros.  
+- **async_fifo.odb**: OpenROAD’s internal database snapshot storing the complete design state.  
+
+These outputs form the foundation for clock tree synthesis (CTS) and routing in later stages of the flow.
+
