@@ -1,0 +1,19 @@
+Design Name: async_fifo
+Run Directory: /openlane/designs/async_fifo/runs/RUN_2025.08.29_07.26.35
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/async_fifo/runs/RUN_2025.08.29_07.26.35/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/async_fifo/runs/RUN_2025.08.29_07.26.35/logs/signoff/41-async_fifo.lef.lvs.log
+Number of nets: 804                        |Number of nets: 804                        
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/async_fifo/runs/RUN_2025.08.29_07.26.35/logs/signoff/44-arc.log
+Pin violations: 0
+Net violations: 0
