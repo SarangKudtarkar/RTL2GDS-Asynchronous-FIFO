@@ -1,0 +1,18 @@
+
+===========================================================================
+report_clock_skew
+============================================================================
+Clock rd_clk
+   0.00 source latency _1096_/CLK ^
+   0.00 target latency _1101_/CLK ^
+   0.00 CRPR
+--------------
+   0.00 setup skew
+
+Clock wr_clk
+   0.00 source latency _1118_/CLK ^
+   0.00 target latency _1123_/CLK ^
+   0.00 CRPR
+--------------
+   0.00 setup skew
+
