@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<report-database>
+    <categories/>
+    <cells>
+        <cell>
+            <name>async_fifo</name>
+        </cell>
+    </cells>
+    <items/>
+</report-database>
