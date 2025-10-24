@@ -1,0 +1,3 @@
+Warning: Replacing memory \mem with list of registers. See /openlane/designs/async_fifo/src/async_fifo.v:69
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warnings: 1 unique messages, 1 total
