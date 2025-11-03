@@ -16,6 +16,7 @@ Reading design constraints file at '/openlane/designs/async_fifo/src/async_fifo.
 [INFO]: Setting RC values...
 min_report
 
+
 ===========================================================================
 report_checks -path_delay min (Hold)
 ============================================================================
